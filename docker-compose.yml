@@ -74,7 +74,7 @@ x-airflow-common:
     # AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
   volumes:
     - ./dags:/opt/airflow/dags
-    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ./logs:/opt/airflow/logs
     - ./airflow.cfg:/opt/airflow/airflow.cfg
     #- ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     - ./scripts:/opt/airflow/scripts

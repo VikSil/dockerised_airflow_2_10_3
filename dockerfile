@@ -1,5 +1,5 @@
 # Use an official Python runtime as the base image
-FROM apache/airflow
+FROM apache/airflow:2.10.3
 
 # Copy custom configuration files
 COPY airflow.cfg /opt/airflow/airflow.cfg

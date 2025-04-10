@@ -14,6 +14,15 @@ On Debian [**these**](https://docs.docker.com/engine/install/debian/) instructio
 
 **N.B.** Docker Desktop is much, much more resource hungry than the binaries.
 
+# Setup
+
+* Create the following direcotries in the root:
+     
+     - ./dags 
+     - ./scripts
+     - ./logs/dag_processor_manager
+     - ./logs/scheduler/2025-01-01 (set to the current date)
+
 # How to run
 
 On either platform, `cd` into the root folder (i.e. this folder, where the `docker-compose.yml` file is). Execute:
